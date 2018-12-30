@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue (recipes,key,value) {
 
 
 
-function updateObjectWithKeyAndValue (recipes,key,value) {
+function updateObjectWithKeyAndValue2 (recipes,key,value) {
 var newRecipes = Object.assign({},recipes,{[key]:value})
   delete newRecipes[key]
   return newRecipes
